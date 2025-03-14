@@ -14,7 +14,7 @@ const HeaderFormFilters = () => {
   return (
     <form>
       <SelectorGroup id="cidade" icon={<FaLocationDot />}>
-        <SelectorOption value="" label="Escolha a sua cidade" />
+        <SelectorOption value="" label="Escolha sua cidade" />
         {cidades.map((cidade) => {
           return (
             <SelectorOption
